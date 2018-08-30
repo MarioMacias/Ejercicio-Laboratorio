@@ -9,4 +9,15 @@ public class Alumno
         this. nombre = nombre;
         this.clave = clave;
     }
+    
+    public int DameCLave()
+    {
+        return clave;
+    }
+    
+    public String toString()
+    {
+        String aux = "ALumno: " + nombre + ", Clave: " + clave;
+        return aux;
+    }
 }
